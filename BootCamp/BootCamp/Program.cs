@@ -1,5 +1,6 @@
 ﻿using BootCamp.AddPlayersService;
 using BootCamp.ChoosePlayerService;
+using BootCamp.DeletePlayerService;
 using BootCamp.DisplayPlayersService;
 using BootCamp.EditPlayersService;
 using BootCamp.Service;
@@ -19,6 +20,7 @@ namespace BootCamp
         {
             ChoosePlayer choosePlayer = new ChoosePlayer();
             EditPlayer  editPlayer = new EditPlayer();
+            DeletePlayer deletePlayer = new DeletePlayer();
             AddPlayer addPlayer = new AddPlayer();
             List<FootballPlayer> players = new List<FootballPlayer>();
             Console.WriteLine("Unesi broj igraca:");
@@ -44,7 +46,9 @@ namespace BootCamp
                 Console.WriteLine("\nMenu:");
                 Console.WriteLine("1. View Players");
                 Console.WriteLine("2. Edit Player");
-                Console.WriteLine("3. Exit");
+                Console.WriteLine("3. Add Player");
+                Console.WriteLine("4. Delete Player");
+                Console.WriteLine("5. Exit");
                 Console.Write("Enter your choice: ");
 
                 if (int.TryParse(Console.ReadLine(), out int choice))
@@ -64,8 +68,12 @@ namespace BootCamp
                             FootballPlayer newPlayer = CreatePlayerService.CreatePlayer();
                             addPlayer.Add(players, newPlayer);
                             break;
-
                         case 4:
+                            Console.Write("Index player-a kojeg zelis obrisati");
+                            int index = int.Parse(Console.ReadLine());
+                            deletePlayer.DeletePlayerByIndex(players, index);
+                            break;
+                        case 5:
                             exit = true;
                             break;
                     }
