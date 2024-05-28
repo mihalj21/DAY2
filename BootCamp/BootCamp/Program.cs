@@ -1,4 +1,6 @@
-﻿using BootCamp.DisplayPlayersService;
+﻿using BootCamp.ChoosePlayerService;
+using BootCamp.DisplayPlayersService;
+using BootCamp.EditPlayersService;
 using BootCamp.Service;
 using System;
 using System.Collections.Generic;
@@ -10,9 +12,12 @@ namespace BootCamp
 {
     internal class Program
     {
+      
+
         static void Main(string[] args)
         {
-            
+            ChoosePlayer choosePlayer = new ChoosePlayer();
+             EditPlayer  editPlayer = new EditPlayer();
             List<FootballPlayer> players = new List<FootballPlayer>();
             Console.WriteLine("Unesi broj igraca:");
 
@@ -49,6 +54,9 @@ namespace BootCamp
                             DisplayService.DisplayPlayers(players);
                             break;
                         case 2:
+                            
+                            FootballPlayer playerToEdit = choosePlayer.Choose(players);
+                            editPlayer.Edit(playerToEdit);  
                             break;
 
                         case 3:

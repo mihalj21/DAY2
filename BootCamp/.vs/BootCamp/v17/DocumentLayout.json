@@ -11,16 +11,24 @@
       "RelativeMoniker": "D:0:0:{F09A261C-F79E-4277-801B-306316EC922E}|BootCamp\\BootCamp.csproj|solutionrelative:bootcamp\\displayplayersservice\\displayplayersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F09A261C-F79E-4277-801B-306316EC922E}|BootCamp\\BootCamp.csproj|c:\\users\\student\\desktop\\day2\\bootcamp\\bootcamp\\chooseplayerservice\\chooseplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F09A261C-F79E-4277-801B-306316EC922E}|BootCamp\\BootCamp.csproj|solutionrelative:bootcamp\\chooseplayerservice\\chooseplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09A261C-F79E-4277-801B-306316EC922E}|BootCamp\\BootCamp.csproj|c:\\users\\student\\desktop\\day2\\bootcamp\\bootcamp\\editplayersservice\\editplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F09A261C-F79E-4277-801B-306316EC922E}|BootCamp\\BootCamp.csproj|solutionrelative:bootcamp\\editplayersservice\\editplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09A261C-F79E-4277-801B-306316EC922E}|BootCamp\\BootCamp.csproj|C:\\Users\\Student\\Desktop\\DAY2\\BootCamp\\BootCamp\\Person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F09A261C-F79E-4277-801B-306316EC922E}|BootCamp\\BootCamp.csproj|solutionrelative:BootCamp\\Person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F09A261C-F79E-4277-801B-306316EC922E}|BootCamp\\BootCamp.csproj|C:\\Users\\Student\\Desktop\\DAY2\\BootCamp\\BootCamp\\Service\\CreatePlayerService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F09A261C-F79E-4277-801B-306316EC922E}|BootCamp\\BootCamp.csproj|solutionrelative:BootCamp\\Service\\CreatePlayerService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F09A261C-F79E-4277-801B-306316EC922E}|BootCamp\\BootCamp.csproj|C:\\Users\\Student\\Desktop\\DAY2\\BootCamp\\BootCamp\\FootballPlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F09A261C-F79E-4277-801B-306316EC922E}|BootCamp\\BootCamp.csproj|solutionrelative:BootCamp\\FootballPlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F09A261C-F79E-4277-801B-306316EC922E}|BootCamp\\BootCamp.csproj|C:\\Users\\Student\\Desktop\\DAY2\\BootCamp\\BootCamp\\Person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F09A261C-F79E-4277-801B-306316EC922E}|BootCamp\\BootCamp.csproj|solutionrelative:BootCamp\\Person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F09A261C-F79E-4277-801B-306316EC922E}|BootCamp\\BootCamp.csproj|C:\\Users\\Student\\Desktop\\DAY2\\BootCamp\\BootCamp\\Club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +46,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChoosePlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\DAY2\\BootCamp\\BootCamp\\ChoosePlayerService\\ChoosePlayer.cs",
+              "RelativeDocumentMoniker": "BootCamp\\ChoosePlayerService\\ChoosePlayer.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\DAY2\\BootCamp\\BootCamp\\ChoosePlayerService\\ChoosePlayer.cs",
+              "RelativeToolTip": "BootCamp\\ChoosePlayerService\\ChoosePlayer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T11:22:26.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\DAY2\\BootCamp\\BootCamp\\EditPlayersService\\EditPlayer.cs",
+              "RelativeDocumentMoniker": "BootCamp\\EditPlayersService\\EditPlayer.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\DAY2\\BootCamp\\BootCamp\\EditPlayersService\\EditPlayer.cs*",
+              "RelativeToolTip": "BootCamp\\EditPlayersService\\EditPlayer.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T11:05:32.88Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -56,7 +90,7 @@
               "RelativeDocumentMoniker": "BootCamp\\DisplayPlayersService\\DisplayPlayersService.cs",
               "ToolTip": "C:\\Users\\Student\\Desktop\\DAY2\\BootCamp\\BootCamp\\DisplayPlayersService\\DisplayPlayersService.cs",
               "RelativeToolTip": "BootCamp\\DisplayPlayersService\\DisplayPlayersService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T10:38:02.442Z",
               "EditorCaption": ""
@@ -67,16 +101,16 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\DAY2\\BootCamp\\BootCamp\\Program.cs",
               "RelativeDocumentMoniker": "BootCamp\\Program.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\DAY2\\BootCamp\\BootCamp\\Program.cs*",
-              "RelativeToolTip": "BootCamp\\Program.cs*",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAgwDIAAAAYAAAA",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\DAY2\\BootCamp\\BootCamp\\Program.cs",
+              "RelativeToolTip": "BootCamp\\Program.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwDMAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T08:32:23.753Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "CreatePlayerService.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\DAY2\\BootCamp\\BootCamp\\Service\\CreatePlayerService.cs",
               "RelativeDocumentMoniker": "BootCamp\\Service\\CreatePlayerService.cs",
@@ -89,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Club.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\DAY2\\BootCamp\\BootCamp\\Club.cs",
               "RelativeDocumentMoniker": "BootCamp\\Club.cs",
@@ -101,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "FootballPlayer.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\DAY2\\BootCamp\\BootCamp\\FootballPlayer.cs",
               "RelativeDocumentMoniker": "BootCamp\\FootballPlayer.cs",
@@ -114,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "IPerson.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\DAY2\\BootCamp\\BootCamp\\IPerson.cs",
               "RelativeDocumentMoniker": "BootCamp\\IPerson.cs",
