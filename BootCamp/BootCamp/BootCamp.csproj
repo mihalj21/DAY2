@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddPlayersService\AddPlayer.cs" />
     <Compile Include="ChoosePlayerService\ChoosePlayer.cs" />
     <Compile Include="Club.cs" />
     <Compile Include="DisplayPlayersService\DisplayPlayersService.cs" />
