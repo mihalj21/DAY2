@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace BootCamp
 {
-    internal class Club
+    public class Club
     {
+        public string Name { get; set; }
+        public string Country { get; set; }
+        public string League { get; set; }
+
+        public Club() { }
+
+        public Club(string name, string country, string league) { 
+         Name = name;
+         Country = country;
+         League = league;
+        }
     }
 }
