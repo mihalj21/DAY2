@@ -1,4 +1,5 @@
-﻿using BootCamp.Service;
+﻿using BootCamp.DisplayPlayersService;
+using BootCamp.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,7 @@ namespace BootCamp
     {
         static void Main(string[] args)
         {
+            
             List<FootballPlayer> players = new List<FootballPlayer>();
             Console.WriteLine("Unesi broj igraca:");
 
@@ -27,6 +29,38 @@ namespace BootCamp
                 players.Add(player);
             }
 
+
+            bool exit = false;
+
+            while (!exit) {
+
+                Console.WriteLine("\nMenu:");
+                Console.WriteLine("1. View Players");
+                Console.WriteLine("2. Edit Player");
+                Console.WriteLine("3. Exit");
+                Console.Write("Enter your choice: ");
+
+                if (int.TryParse(Console.ReadLine(), out int choice))
+                {
+                    switch (choice)
+                    {
+                        case 1:
+                           
+                            DisplayService.DisplayPlayers(players);
+                            break;
+                        case 2:
+                            break;
+
+                        case 3:
+                            exit = true;
+                            break;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Greška, molim te unesi ispravan broj:");
+                }
+            }
 
             Console.WriteLine("\nPlayers Information:");
 

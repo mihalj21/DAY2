@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Club.cs" />
+    <Compile Include="DisplayPlayersService\DisplayPlayersService.cs" />
     <Compile Include="FootballPlayer.cs" />
     <Compile Include="IPerson.cs" />
     <Compile Include="Person.cs" />
