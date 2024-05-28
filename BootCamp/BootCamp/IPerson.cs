@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 namespace BootCamp
 {
     internal interface IPerson
+
     {
+         string FirstName { get; set; }
+         string LastName { get; set; }
+            
     }
 }
